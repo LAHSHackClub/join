@@ -49,6 +49,7 @@
 	}
 
 	a {
+		color: #0079F4;
 		text-decoration: none;
 	}
 
