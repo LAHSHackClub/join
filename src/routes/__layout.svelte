@@ -1,45 +1,37 @@
-<script>
-	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
-</script>
-
-<Header />
 
 <main>
-	<slot />
+	<slot></slot>
 </main>
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
-
-<style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
+<style global>
+	body {
+		background: #e0e0e0;
 		box-sizing: border-box;
+		display: grid;
+		place-items: center;
+
+		margin: 0;
+		height: 100vh;
+		padding: 10px;
+		overflow: hidden;
+
+		font-family: "Atkinson Hyperlegible", sans-serif;
 	}
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
+	main {
+		display: grid;
+		place-items: center;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+
+		max-width: 600px;
+		width: 100%;
 	}
 
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
+	main > div {
+		box-sizing: border-box;
+		grid-column: 1 / 1;
+		grid-row: 1 / 1;
+		width: 100%;
 	}
 </style>
