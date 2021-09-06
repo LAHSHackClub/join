@@ -1,26 +1,15 @@
-# create-svelte
+# join.lahs.club
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+This repo uses [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+A static site for joining LAHS Hack Club. Flexible in onboarding steps and processes, currently accepts embedded or external resources.
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=3028e5d48317&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
+npm install
 npm run dev
 
 # or start the server and open the app in a new browser tab
@@ -29,7 +18,7 @@ npm run dev -- --open
 
 ## Building
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+This repo is configured to use `@sveltejs/adapter-static`. Run the script below to generate a static site to be deployed.
 
 ```bash
 npm run build
