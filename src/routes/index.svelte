@@ -3,7 +3,7 @@
 	import { fade } from "svelte/transition";
 
 	const query = [
-		"https://docs.google.com/forms/d/e/1FAIpQLSembbbLWKT3TRTRwReE6T1SSl2Nk5dF6kl9L4y9eRKZB_wvxg/viewform"
+		"https://docs.google.com/forms/d/e/1FAIpQLSf9RoZ_nRE6y5beHrqFoW-TTHIpETOt_DubVGAkk4g4j8xX7A/viewform"
 	]
 </script>
 
