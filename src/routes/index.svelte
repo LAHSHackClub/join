@@ -16,7 +16,7 @@
 	<p><a sveltekit:prefetch href="/step?query=0">1. Fill Out The Form</a></p>
 	<p><a href="https://lahshackclub.slack.com/join/shared_invite/zt-9nz0ghg0-2HA~bRF4t7MwEPvLaTJlOQ#/shared-invite/email" target="_blank">2. Join Our Slack</a></p>
 	<br>
-	<p>After that, you're set! Our first meeting is <b>Thursday, September 16th</b> in <b>Room 723.</b> See you there!</p>
+	<p>After that, you're set! Our first meeting is <b>Wensday, September 21st</b> in <b>Room 723.</b> See you there!</p>
 </div>
 
 <style>
