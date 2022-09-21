@@ -6,9 +6,11 @@
 		"https://docs.google.com/forms/d/e/1FAIpQLSf9RoZ_nRE6y5beHrqFoW-TTHIpETOt_DubVGAkk4g4j8xX7A/viewform"
 	]
 </script>
+
 <svelte:head>
 	<title>Join LAHS Hack Club!</title>
 </svelte:head>
+
 <div transition:fade="{{duration:100}}">
 	<h1>Join LAHS Hack Club!</h1>
 	<p>Just two easy steps:</p>
@@ -17,7 +19,7 @@
 	<br>
 	<p>After that, you're set! Our first meeting is <b>Wensday, September 21st</b> in <b>Room 723.</b> See you there!</p>
 </div>
- 
+
 <style>
 	div {
 		border-radius: 10px;
@@ -49,7 +51,7 @@
 		padding: 15px 20px;
 		transition-duration: 0.5s;
 	}
-
+	
 	@media (min-width: 512px) {
 		div {
 			border-radius: 20px;
