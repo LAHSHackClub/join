@@ -18,6 +18,7 @@
 <svelte:head>
 	<title>LAHS Hack Club - Join Step</title>
 </svelte:head>
+
 <div transition:fade="{{duration:100}}">
 	<p><a href="/" class="btn">← Done? Go back</a></p>
 	<a href="{opts[query]}" target="_blank">(not working? open {short} in a new tab)</a>
