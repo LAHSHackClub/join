@@ -6,7 +6,6 @@
 		"https://docs.google.com/forms/d/e/1FAIpQLSf9RoZ_nRE6y5beHrqFoW-TTHIpETOt_DubVGAkk4g4j8xX7A/viewform"
 	]
 </script>
-
 <svelte:head>
 	<title>Join LAHS Hack Club!</title>
 </svelte:head>
