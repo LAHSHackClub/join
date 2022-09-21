@@ -18,7 +18,7 @@
 	<br>
 	<p>After that, you're set! Our first meeting is <b>Wensday, September 21st</b> in <b>Room 723.</b> See you there!</p>
 </div>
-
+ 
 <style>
 	div {
 		border-radius: 10px;
